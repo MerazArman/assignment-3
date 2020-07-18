@@ -1,4 +1,4 @@
-//                                               feetToMile  er assignment
+//                                             (1)   feetToMile  er assignment
 
 function feetToMile (feet){
     var mile = feet/5280 ;
@@ -7,10 +7,15 @@ function feetToMile (feet){
 var convertFeetToMile = feetToMile();
 console.log(convertFeetToMile)
 
-//                                     ====================1m  ta end ===============
+//                                         ====================End ===============
 
 
-// woodcalculator er coded ======
+
+
+
+
+
+//                                                (2)    ====woodcalculator er assingment ======
 
 
 function woodcalculator (chare,table,khat){
@@ -20,28 +25,54 @@ function woodcalculator (chare,table,khat){
     var totalQbikFeet = chareQbFeet+tableQbFeet+khatQbFeet;
     return totalQbikFeet;
 }
-var chareTableKhatTotalFeet = woodcalculator(10,20,4);
-console.log(chareTableKhatTotalFeet);
+var chareTableKhatToConvertTotalFeet = woodcalculator();
+console.log( chareTableKhatToConvertTotalFeet);
 
-// end=====================
-
-// brickcalculator==========
+//                                                  ======================== end=====================
 
 
-/* function brickcalculator (tala){
-    var fastTenFlour = tala*1000;
-    var secendTenFlour = tala*12;
-    var thirdTenFlour = tala*10;   
+
+
+
+
+
+
+//                                                         (3) ========== brickcalculator assingment  ==========
+ 
+
+
+
+ function brickcalculator (tala){
+     var oneFeetByIt =1000 
+      
     if (tala<=10){
-        console.log(tala*15)
-      else if   
+        tala = tala*15
+        tala= tala*oneFeetByIt
+    }else if (tala <= 20 ){
+        tala = tala*12
+        tala= tala*oneFeetByIt
+    }else if (tala >= 21 ){
+        tala = tala*10
+        tala= tala*oneFeetByIt
     }
+    return tala
 }
-console.log(brickcalculator(10));*/
+        var bildinErTala = brickcalculator()
+         console.log(bildinErTala)
 
 
 
-// tinyFriend  er code 
+//                                              ===============End=================
+
+
+
+
+
+
+//                                              (4)  =========tinyFriend  assingment =====
+
+
+
 
 function  tinyFriend (chackSmallName){
     var minName = chackSmallName[0];
@@ -56,3 +87,5 @@ function  tinyFriend (chackSmallName){
 }
     var chackresult = tinyFriend([]);
     console.log(chackresult);
+
+    //                                       ================== End=========================
